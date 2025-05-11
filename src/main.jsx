@@ -8,6 +8,6 @@ import {users} from './db/users.js'
 
 createRoot(document.getElementById('root')).render(
     <BrowserRouter>
-        <App />
+        <App comments = {comments} posts = {posts} users = {users}/>
     </BrowserRouter>
 )

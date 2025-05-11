@@ -7,7 +7,7 @@ import { Comments } from './comments/comments'
 import { Posts } from './posts/posts'
 import { Users } from './users/users'
 
-function App() {
+function App({comments , posts , users}) {
 
   return (
     <>
@@ -15,9 +15,9 @@ function App() {
 
       <Routes>
         <Route path='/' element = {<Home />}/>
-        <Route path='/comments' element = {<Comments />}/>
-        <Route path='/posts' element = {<Posts />}/>
-        <Route path='/users' element = {<Users />}/>
+        <Route path='/comments' element = {<Comments comments = {comments}/>}/>
+        <Route path='/posts' element = {<Posts posts = {posts}/>}/>
+        <Route path='/users' element = {<Users users = {users}/>}/>
         <Route path='*' element = {<Not />}/>
       </Routes>
 

@@ -1,0 +1,16 @@
+.comCard {
+    padding: 16px 0;
+    text-align: center;
+    background-color: antiquewhite;
+    /* padding: 16px; */
+    h2 {
+        color: blue;
+    }
+    h3 {
+        color: aqua;
+        margin: 16px 0;
+    }
+    p {
+        font-family: sans-serif;
+    }
+}
