@@ -1,0 +1,22 @@
+.links {
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    padding: 18px 0;
+    background-color: antiquewhite;
+}
+
+a {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.active {
+    color: blue;
+    text-shadow: blue 0 0 12px;
+    font-weight: bold;
+}
