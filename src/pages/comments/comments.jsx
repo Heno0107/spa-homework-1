@@ -8,6 +8,7 @@ export function Comments ({comments}) {
                 comments.map((com) => {
                     return (
                         < CommentCard 
+                        key={com.id}
                         id = {com.id} 
                         name = {com.name} 
                         email = {com.email} 
